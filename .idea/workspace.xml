@@ -14,10 +14,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="038d3447-a54f-456e-a52d-8e36c6197dfc" />
   </component>
   <component name="ProjectId" id="1b1PhMDzpWg6rJCynJ6Pl6L02KO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -283,6 +287,14 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1588852074249" />
+    <state x="441" y="246" key="Github.ShareDialog" timestamp="1589800696140">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="441" y="246" key="Github.ShareDialog/0.0.1280.720@0.0.1280.720" timestamp="1589800696140" />
+    <state x="445" y="68" key="Github.UntrackedFilesDialog" timestamp="1589800738305">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="445" y="68" key="Github.UntrackedFilesDialog/0.0.1280.720@0.0.1280.720" timestamp="1589800738305" />
     <state width="1259" height="220" key="GridCell.Tab.0.bottom" timestamp="1589800487878">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
