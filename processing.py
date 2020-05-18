@@ -45,14 +45,14 @@ def preprocess(text):
     stop_free = " ".join([lemmatize_stemming(token) for token in simple_preprocess(text) if
                           token not in STOPWORDS and len(
                               token) > 2 and token not in rare_words])
-    stop_free = stop_free.lower()
+    stop_free = stop_free
     return stop_free
 
 def begin():
     """
     main execution
     """
-    frame = pd.read_excel('./m.xlsx')
+    frame = pd.read_excel('./initial.xlsx')
 
     frame['clean_data'] = frame.scraped_text.apply(preprocess)
-    frame.to_excel('./m.xlsx')
+    frame.to_excel('./initial.xlsx')

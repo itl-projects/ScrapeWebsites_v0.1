@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37f36c7e-d03c-4f54-858c-078ffec4a26e" name="Default Changelist" comment="" />
+    <list default="true" id="37f36c7e-d03c-4f54-858c-078ffec4a26e" name="Default Changelist" comment="commit message">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class.py" beforeDir="false" afterPath="$PROJECT_DIR$/class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final.csv" beforeDir="false" afterPath="$PROJECT_DIR$/final.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getKeyword.py" beforeDir="false" afterPath="$PROJECT_DIR$/getKeyword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyword.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/sample.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +52,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
@@ -40,7 +64,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.Classifier">
     <configuration name="Classifier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Scrape" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,10 +266,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.Classifier" />
-        <item itemvalue="Python.getKeyword" />
         <item itemvalue="Python.class" />
+        <item itemvalue="Python.getKeyword" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +284,19 @@
       <option name="presentableId" value="Default" />
       <updated>1587796746180</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit message">
+      <created>1589802074977</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589802074977</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit message" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit message" />
   </component>
   <component name="WindowStateProjectService">
     <state x="358" y="0" key="#Scrapy" timestamp="1588419988536">
@@ -295,30 +331,54 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="445" y="68" key="Github.UntrackedFilesDialog/0.0.1280.720@0.0.1280.720" timestamp="1589800738305" />
-    <state width="1259" height="220" key="GridCell.Tab.0.bottom" timestamp="1589800487878">
+    <state width="1259" height="301" key="GridCell.Tab.0.bottom" timestamp="1589807776659">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="220" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589800487878" />
-    <state width="1259" height="220" key="GridCell.Tab.0.center" timestamp="1589800487877">
+    <state width="1259" height="301" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589807776659" />
+    <state width="1259" height="301" key="GridCell.Tab.0.center" timestamp="1589807776659">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="220" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1589800487877" />
-    <state width="1259" height="220" key="GridCell.Tab.0.left" timestamp="1589800487876">
+    <state width="1259" height="301" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1589807776659" />
+    <state width="1259" height="301" key="GridCell.Tab.0.left" timestamp="1589807776659">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="220" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1589800487876" />
-    <state width="1259" height="220" key="GridCell.Tab.0.right" timestamp="1589800487878">
+    <state width="1259" height="301" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1589807776659" />
+    <state width="1259" height="301" key="GridCell.Tab.0.right" timestamp="1589807776659">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="220" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1589800487878" />
+    <state width="1259" height="301" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1589807776659" />
+    <state width="1259" height="238" key="GridCell.Tab.1.bottom" timestamp="1589807234548">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="238" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589807234548" />
+    <state width="1259" height="238" key="GridCell.Tab.1.center" timestamp="1589807234533">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="238" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1589807234533" />
+    <state width="1259" height="238" key="GridCell.Tab.1.left" timestamp="1589807234533">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="238" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1589807234533" />
+    <state width="1259" height="238" key="GridCell.Tab.1.right" timestamp="1589807234548">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1259" height="238" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1589807234548" />
     <state x="144" y="7" key="SettingsEditor" timestamp="1589800638399">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="144" y="7" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1589800638399" />
+    <state x="233" y="96" key="Vcs.Push.Dialog.v2" timestamp="1589802129267">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="96" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1589802129267" />
     <state x="93" y="93" width="1095" height="535" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588922359350">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="93" y="93" width="1095" height="535" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.720@0.0.1280.720" timestamp="1588922359350" />
+    <state x="452" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589807910188">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="452" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1589807910188" />
     <state x="488" y="138" key="refactoring.ChangeSignatureDialog" timestamp="1588430305985">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

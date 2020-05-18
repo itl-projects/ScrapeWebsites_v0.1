@@ -10,17 +10,16 @@ def readFromDir(osList):
 
     textList = []
 
-
     for i in range(len(osList)):
         filesList = []
         textArray = []
         for (dirpath, dirnames, filenames) in os.walk(osList[i]):
             filesList.extend(filenames)
             os.chdir(osList[i])
-            for _ in range(len(filesList[:10])):
+            for _ in range(len(filesList)):
                 with open('{}'.format(filesList[_]), 'r', encoding='utf-8') as file:
-                    p = file.read()
-                    textArray.append(p)
+                    text_str = file.read()
+                    textArray.append(text_str.lower())
 
             text_arr = ','.join(textArray)
             text_arr = strip_punctuation(text_arr)
@@ -48,9 +47,12 @@ def execute():
     text = readFromDir(osList)
     df1 = pd.read_excel('./sample.xlsx')
     df['scraped_text'] = text
-    df['class'] = df1['target_groups']
+    try:
+        df1.drop_duplicates(subset=["web", "target_groups"], keep='first', inplace=True)
+        df1 = df1['target_groups']
+        df1.dropna(axis=1, how="all", inplace=True)
+    except:
+        pass
+    df['class'] = df1
     df = df.applymap(lambda x:x.encode('unicode_escape').decode('utf-8') if isinstance(x,str) else x)
-    df.to_excel('./m.xlsx')
-
-if __name__ == "__main__":
-    execute()
+    df.to_excel('./initial.xlsx')

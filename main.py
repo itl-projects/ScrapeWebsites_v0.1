@@ -7,7 +7,6 @@ def main():
     handle = ScrapeData("./sample.xlsx")
     urlList = handle.readFromExcel()
     handle.scrapy(urlList)
-    execute()
 
 
 if __name__ == '__main__':

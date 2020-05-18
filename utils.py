@@ -18,7 +18,7 @@ class ScrapeData:
         Reading from excel file
         """
         dataFrame = pd.read_excel(self.query)
-        scrapyUrlList = list(dataFrame['web'][304:])
+        scrapyUrlList = list(dataFrame['web'])
         return scrapyUrlList
 
     def appendToCsv(self, df, csvFilePath, sep=","):
